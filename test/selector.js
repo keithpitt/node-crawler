@@ -2,7 +2,6 @@
 QUnit.module("selector");
 
 var path = require( "path" ).normalize( __dirname + "/.." ),
-    sys = require("sys"),
     fs = require("fs"),
     Crawler = require(path + "/lib/crawler.js").Crawler;
 
